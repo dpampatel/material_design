@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up: Creative Canvas</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="cls-grid-layout">
+    <header class="cls-home-header">
+      <h1>Get Enrolled..</h1>
+      <a href="../index.html" class="btn-signup">Home</a>
+    </header>
+    <nav>
+      <ul>
+        <li class="cls-enlarge-logo">
+          <a href="../index.html"
+            ><img src="../images/s-logo.png" alt="Logo" />
+            <p>Home</p></a
+          >
+        </li>
+        <li>
+          <a href="getstarted.html">
+            <img src="../images/s-start.png" alt="start icon" />
+            <p>Get started</p>
+          </a>
+        </li>
+        <li class="cls-enlarge-logo">
+          <a href="foundations.html"
+            ><img src="../images/s-foundation.png" alt="foundation icon" />
+            <p>Foundations</p></a
+          >
+        </li>
+        <li>
+          <a href="styles.html"
+            ><img src="../images/s-paint-brush.png" alt="paint brush icon" />
+            <p>Styles</p></a
+          >
+        </li>
+        <li>
+          <a href="components.html"
+            ><img src="../images/s-component.png" alt="components icon" />
+            <p>Components</p></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="cls-start-main">
+      <div>
+        <!-- Content -->
+        <section class="signup">
+          <form class="sign_up">
+            <div class="sign_up_group">
+              <label for="first-name">First name:</label>
+              <input type="text" id="first-name" name="first-name" required />
+              <label for="last-name">Last name:</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+            <div class="sign_up_group">
+              <label for="age">Age:</label>
+              <input
+                type="number"
+                id="age"
+                name="age"
+                min="16"
+                max=""
+                required
+              />
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender" required>
+                <option value="">--Select--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="sign_up_group">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div class="sign_up_group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="sign_up_group">
+              <label for="address">Address:</label>
+              <textarea id="address" name="address" required></textarea>
+            </div>
+            <div class="sign_up_group">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer class="cls-home-footer">
+      <img
+        src="../images/budget-that-syncs-couple.png"
+        alt="Designers working"
+      />
+      <section class="cls-polygon">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Disclaimer</th>
+              <th scope="col">Social</th>
+              <th scope="col">Libraries</th>
+              <th scope="col">Quick Links</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="5">
+                <p>
+                  Material Design is a comprehensive design language created by
+                  Google that offers a set of guidelines for crafting
+                  high-quality digital products. The information presented on
+                  this website is intended for general informational purposes
+                  and should be used as a helpful resource.
+                </p>
+              </td>
+              <td>
+                <a
+                  href="https://www.github.com/material-components"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Find us on Github"
+                  >GitHub
+                </a>
+              </td>
+              <td>
+                <a
+                  href="https://m3.material.io/develop/android/mdc-android"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Android"
+                  >Android
+                </a>
+              </td>
+              <td>
+                <a href="../index.html"><p>Home</p></a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  href="https://www.twitter.com/materialdesign"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Find us on Twitter"
+                  >Twitter
+                </a>
+              </td>
+              <td>
+                <a
+                  href="https://m3.material.io/develop/android/jetpack-compose"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Compose"
+                  >Compose
+                </a>
+              </td>
+              <td>
+                <a href="./getstarted.html"><p>Get Started</p></a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  href="https://www.youtube.com/materialdesign"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Find us on Youtube"
+                  >YouTube
+                </a>
+              </td>
+              <td>
+                <a
+                  href="https://m3.material.io/develop/flutter"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Flutter"
+                  >Flutter
+                </a>
+              </td>
+              <td>
+                <a href="./foundations.html"><p>Foundations</p></a>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <a
+                  rel="noopener"
+                  href="https://m3.material.io/develop/web"
+                  target="_blank"
+                  aria-label="web"
+                  >Web
+                </a>
+              </td>
+              <td>
+                <a href="./styles.html"><p>Styles</p></a>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>
+                <a href="./components.html"><p>Components</p></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <small><p>Copyright 2023 &copy; Creative Canvas</p></small>
+      </section>
+    </footer>
+  </body>
+</html>
